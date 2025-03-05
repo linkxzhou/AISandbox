@@ -1,0 +1,60 @@
+{
+  "models": [
+    {
+      "id": "ernie-4.0-turbo-8k-latest",
+      "provider": "default",
+      "providerId": "default",
+      "name": "ernie-4.0-turbo",
+      "multiModal": false
+    },
+    {
+      "id": "deepseek-r1",
+      "provider": "DeepSeek",
+      "providerId": "deepseek",
+      "name": "DeepSeek V3",
+      "multiModal": false
+    },
+    {
+      "id": "o1",
+      "provider": "OpenAI",
+      "providerId": "openai",
+      "name": "o1",
+      "multiModal": true
+    },
+    {
+      "id": "o1-mini",
+      "provider": "OpenAI",
+      "providerId": "openai",
+      "name": "o1 mini",
+      "multiModal": false
+    },
+    {
+      "id": "o3-mini",
+      "provider": "OpenAI",
+      "providerId": "openai",
+      "name": "o3 mini",
+      "multiModal": false
+    },
+    {
+      "id": "gpt-4o",
+      "provider": "OpenAI",
+      "providerId": "openai",
+      "name": "GPT-4o",
+      "multiModal": true
+    },
+    {
+      "id": "gpt-4o-mini",
+      "provider": "OpenAI",
+      "providerId": "openai",
+      "name": "GPT-4o Mini",
+      "multiModal": true
+    },
+    {
+      "id": "gpt-4-turbo",
+      "provider": "OpenAI",
+      "providerId": "openai",
+      "name": "GPT-4 Turbo",
+      "multiModal": true
+    }
+  ]
+}
