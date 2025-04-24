@@ -1,4 +1,4 @@
-import { TimeoutError } from 'e2b'
+import { TimeoutError } from './errors'
 
 export function formatRequestTimeoutError(error: unknown) {
   if (error instanceof Error && error.name === 'AbortError') {
